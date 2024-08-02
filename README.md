@@ -4,17 +4,17 @@ This is a demo repository for nextjs testing pertaining to 9703
 
 # Relevant Links:
 NextJS:
-https://nextjs.org/learn/dashboard-app/getting-started
-https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup
-https://github.com/vercel/next-learn/tree/main/dashboard/starter-example
-https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/
-https://www.educative.io/blog/nextjs-tutorial-examples#example
+ - https://nextjs.org/learn/dashboard-app/getting-started
+ - https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup
+ - https://github.com/vercel/next-learn/tree/main/dashboard/starter-example
+ - https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/
+ - https://www.educative.io/blog/nextjs-tutorial-examples#example
 
 Bulletproof React:
-https://github.com/alan2207/bulletproof-react
+ - https://github.com/alan2207/bulletproof-react
 
 Whiteboarding:
-https://whiteboard.office.com/me/whiteboards/p/c3BvOmh0dHBzOi8vbmF0aW9uYWxib2FyZC1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9zbW9zaGVyX25hdGlvbmFsYm9hcmRfb3Jn/b!oq_H_2b8S06s_EyeYg8XD48sQpq70SFGlzFhx8BVB72u3v7itFonS5ctQhpGTxoh/012NJGKRE7CALJAD2FXFG2WUBGZNZDTOIP?sharingv2=true&fromShare=true&at=9&fromShare=true
+ - https://whiteboard.office.com/me/whiteboards/p/c3BvOmh0dHBzOi8vbmF0aW9uYWxib2FyZC1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9zbW9zaGVyX25hdGlvbmFsYm9hcmRfb3Jn/b!oq_H_2b8S06s_EyeYg8XD48sQpq70SFGlzFhx8BVB72u3v7itFonS5ctQhpGTxoh/012NJGKRE7CALJAD2FXFG2WUBGZNZDTOIP?sharingv2=true&fromShare=true&at=9&fromShare=true
 
 # Objective:
 1) Generate Documentation/Notes
