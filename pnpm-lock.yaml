@@ -12,8 +12,8 @@ importers:
         specifier: ^2.1.4
         version: 2.1.4(react@19.0.0-rc-f38c22b244-20240704)
       '@hookform/resolvers':
-        specifier: ^2.9.11
-        version: 2.9.11(react-hook-form@7.52.2(react@19.0.0-rc-f38c22b244-20240704))
+        specifier: ^3.9.0
+        version: 3.9.0(react-hook-form@7.52.2(react@19.0.0-rc-f38c22b244-20240704))
       '@tailwindcss/forms':
         specifier: ^0.5.7
         version: 0.5.7(tailwindcss@3.4.4)
@@ -101,8 +101,8 @@ packages:
     peerDependencies:
       react: '>= 16'
 
-  '@hookform/resolvers@2.9.11':
-    resolution: {integrity: sha512-bA3aZ79UgcHj7tFV7RlgThzwSSHZgvfbt2wprldRkYBcMopdMvHyO17Wwp/twcJasNFischFfS7oz8Katz8DdQ==}
+  '@hookform/resolvers@3.9.0':
+    resolution: {integrity: sha512-bU0Gr4EepJ/EQsH/IwEzYLsT/PEj5C0ynLQ4m+GSHS+xKH4TfSelhluTgOaoc4kA5s7eCsQbM4wvZLzELmWzUg==}
     peerDependencies:
       react-hook-form: ^7.0.0
 
@@ -1194,7 +1194,7 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-f38c22b244-20240704
 
-  '@hookform/resolvers@2.9.11(react-hook-form@7.52.2(react@19.0.0-rc-f38c22b244-20240704))':
+  '@hookform/resolvers@3.9.0(react-hook-form@7.52.2(react@19.0.0-rc-f38c22b244-20240704))':
     dependencies:
       react-hook-form: 7.52.2(react@19.0.0-rc-f38c22b244-20240704)
 
