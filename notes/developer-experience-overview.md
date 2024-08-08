@@ -30,7 +30,10 @@ II. Using the App Router: (recommended)
       - Error Component: displays when an error occurs.
 
 Routing Documentation:
-https://nextjs.org/docs/app/building-your-application/routing
+
+- https://nextjs.org/docs/app/building-your-application/
+
+- https://medium.com/@stk.devtest/next-js-14-the-differences-between-app-router-and-page-router-bec51abcc4c3
 
 ---
 
