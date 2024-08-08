@@ -1,4 +1,4 @@
-## How does routing work
+## How does routing work?
 - By default Next.js offers two directory options:
 
   1: The Page Directory - automatically creates routes within the `pages` folder.
@@ -197,3 +197,12 @@ export const deleteTask = async (formData) => {
 
 Delete Task Tutorial:
 https://www.youtube.com/watch?v=S9rL4_UDLFQ
+
+---
+
+## Testing
+
+- Jest, Cypress, Vitest, and Playwright all may be used with Next.js
+
+Testing Documentation:
+https://nextjs.org/docs/app/building-your-application/testing
