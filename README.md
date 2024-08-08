@@ -30,8 +30,7 @@ https://nodejs.org/en/blog/announcements/v18-release-announce
 https://www.geeksforgeeks.org/how-to-install-the-previous-version-of-node-js-and-npm/
 
 ```sh
-npm install -g node@22.5.1
-nvm install node
+pnpm install -g node@22.5.1
 nvm use 22.5.1
 git init
 ```
@@ -50,6 +49,16 @@ pnpm dev
 
 This starts your app in development mode, rebuilding assets on file changes.
 Runs the application locally ->  http://localhost:3000
+
+
+** for npm use:
+```sh
+npm install -g node@22.5.1
+nvm use 22.5.1
+git init
+npm i
+npm start
+```
 
 ---
 
