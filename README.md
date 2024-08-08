@@ -1,16 +1,16 @@
 
-# register-nextjs-demo
+## register-nextjs-demo
 This is a demo repository for nextjs testing pertaining to 9703
 
 JIRA: https://jrsnbbi.atlassian.net/browse/JRS-9703
 
 ---
 
-# Next.js Documentation
+##  Next.js Documentation
 https://nextjs.org/docs
-# Next.js Building an Application:
+##  Next.js Building an Application:
 https://nextjs.org/docs/app/building-your-application
-# Next.js Tutorial
+##  Next.js Tutorial
 https://nextjs.org/learn/dashboard-app/getting-started
 
 ---
@@ -25,7 +25,7 @@ npm install -g pnpm
 
 **Note: the Next.Js tutorial recommends `pnpm`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
 
-# Updating to Node V18 (needs at least V18) and git init
+##  Updating to Node V18 (needs at least V18) and git init
 https://nodejs.org/en/blog/announcements/v18-release-announce
 https://www.geeksforgeeks.org/how-to-install-the-previous-version-of-node-js-and-npm/
 
@@ -62,7 +62,7 @@ npm start
 
 ---
 
-# Adding Packages:
+## Adding Packages:
 
 ```sh
 pnpm add react-hook-form
@@ -76,7 +76,7 @@ npm install react-hook-form
 
 ---
 
-# Relevant Links:
+##  Relevant Links:
 NextJS:
  - https://nextjs.org/learn/dashboard-app/getting-started
  - https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup
@@ -90,7 +90,9 @@ Bulletproof React:
 Whiteboarding:
  - https://whiteboard.office.com/me/whiteboards/p/c3BvOmh0dHBzOi8vbmF0aW9uYWxib2FyZC1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9zbW9zaGVyX25hdGlvbmFsYm9hcmRfb3Jn/b!oq_H_2b8S06s_EyeYg8XD48sQpq70SFGlzFhx8BVB72u3v7itFonS5ctQhpGTxoh/012NJGKRE7CALJAD2FXFG2WUBGZNZDTOIP?sharingv2=true&fromShare=true&at=9&fromShare=true
 
-# Objective:
+---
+
+# Project Objective:
 1) Generate Documentation/Notes
 2) Generate a Demo Application
 
