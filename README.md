@@ -139,7 +139,7 @@ Whiteboarding:
 3) validation/typing - in demo & notes
 4) internationalization - mentioned in the notes
 5) ideally a better data grid - n/a
-6) Testing Library - mentioned in the notes
+6) testing library - mentioned in the notes
 
 
 ## Next.js App Router Course - Starter
