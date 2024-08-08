@@ -28,6 +28,7 @@ npm install -g pnpm
 
 ##  Updating to Node V18 (needs at least V18) and git init
 https://nodejs.org/en/blog/announcements/v18-release-announce
+
 https://www.geeksforgeeks.org/how-to-install-the-previous-version-of-node-js-and-npm/
 
 ```sh
@@ -52,7 +53,7 @@ This starts your app in development mode, rebuilding assets on file changes.
 Runs the application locally ->  http://localhost:3000
 
 
-** for npm use:
+**Alternatively, for `npm` use:
 ```sh
 npm install -g node@22.5.1
 nvm use 22.5.1
