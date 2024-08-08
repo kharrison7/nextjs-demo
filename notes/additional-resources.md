@@ -6,9 +6,9 @@
 npm install -g pnpm
 ```
 
--Next.Js docs: https://nextjs.org/learn/dashboard-app/getting-started
+- Next.Js docs: https://nextjs.org/learn/dashboard-app/getting-started
 
-![Alt text](/images/pnpmdevt.png?raw=true "pnpm runtime")
+![Alt text](/images/pnpmdev.png?raw=true "pnpm runtime")
 
 ![Alt text](/images/npmrunstart.png?raw=true "npm runtime")
 
