@@ -103,6 +103,8 @@ Then run the app in production mode:
 npm run start
 ```
 
+![Alt text](/images/JRS-9703.gif?raw=true "Demo Gif")
+
 Now you'll need to pick a host to deploy it to.
 
 A Next.js app can be deployed to any hosting provider that supports Node.js
