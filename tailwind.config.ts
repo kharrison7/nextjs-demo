@@ -19,7 +19,7 @@ const config: Config = {
           600: '#2F6FEB',
         },
         primary: {
-          500: "#00855d",
+          500: "#00855d", // JRS Green
           600: "#e0b058",
         },
         secondary: {
