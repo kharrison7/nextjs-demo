@@ -1,6 +1,6 @@
-// import { zodResolver } from "@hookform/resolvers/zod";
-// Need to run the FormFields: https://github.com/vercel/next.js/discussions/59483
 'use client'
+import { zodResolver } from "@hookform/resolvers/zod";
+// Need to run the FormFields: https://github.com/vercel/next.js/discussions/59483
 import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -21,7 +21,7 @@ const App = () => {
     defaultValues: {
       email: "test@email.com",
     },
-    // resolver: zodResolver(schema),
+    resolver: zodResolver(schema),
   });
 
   const onSubmit: SubmitHandler<FormFields> = async (data: any) => {
