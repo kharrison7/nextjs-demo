@@ -4,6 +4,69 @@ This is a demo repository for nextjs testing pertaining to 9703
 
 JIRA: https://jrsnbbi.atlassian.net/browse/JRS-9703
 
+---
+
+# Next.js Documentation
+https://nextjs.org/docs
+# Next.js Building an Application:
+https://nextjs.org/docs/app/building-your-application
+# Next.js Tutorial
+https://nextjs.org/learn/dashboard-app/getting-started
+
+---
+
+## Development - pnpm (package manager) installation & documentation:
+https://pnpm.io/
+From your terminal:
+
+```sh
+npm install -g pnpm
+```
+
+**Note: the Next.Js tutorial recommends `pnpm`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
+
+# Updating to Node V18 (needs at least V18) and git init
+https://nodejs.org/en/blog/announcements/v18-release-announce
+https://www.geeksforgeeks.org/how-to-install-the-previous-version-of-node-js-and-npm/
+
+```sh
+npm install -g node@22.5.1
+nvm install node
+nvm use 22.5.1
+git init
+```
+
+Pull the repository, cloning via ssh
+
+Then in the `nextjs-dashboard` project run
+
+```sh
+pnpm i
+```
+
+```sh
+pnpm dev
+```
+
+This starts your app in development mode, rebuilding assets on file changes.
+Runs the application locally ->  http://localhost:3000
+
+---
+
+# Adding Packages:
+
+```sh
+pnpm add react-hook-form
+```
+
+or
+
+```sh
+npm install react-hook-form 
+```
+
+---
+
 # Relevant Links:
 NextJS:
  - https://nextjs.org/learn/dashboard-app/getting-started
