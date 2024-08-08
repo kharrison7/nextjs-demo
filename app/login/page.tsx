@@ -3,6 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 // Need to run the FormFields: https://github.com/vercel/next.js/discussions/59483
 import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
+import './index.css'
 
 const schema = z.object({
   email: z.string().email(),
