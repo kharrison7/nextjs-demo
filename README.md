@@ -26,6 +26,8 @@ npm install -g pnpm
 
 **Note: the Next.Js tutorial recommends `pnpm` as it is faster than `npm` or `yarn`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
 
+**`npm` alternative instructions can be found below:
+
 ##  Updating to Node V18 (needs at least V18) and git init
 https://nodejs.org/en/blog/announcements/v18-release-announce
 
@@ -37,7 +39,7 @@ nvm use 22.5.1
 git init
 ```
 
-Cone the repository via ssh
+Clone the repository via ssh
 
 Then in the `nextjs-dashboard` project run
 
@@ -59,7 +61,7 @@ npm install -g node@22.5.1
 nvm use 22.5.1
 git init
 npm i
-npm start
+npm run start
 ```
 
 ---
@@ -75,6 +77,31 @@ or
 ```sh
 npm install react-hook-form 
 ```
+
+---
+
+This starts your app in development mode, rebuilding assets on file changes.
+
+## Deployment
+https://nextjs.org/docs/app/building-your-application/deploying
+
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then run the app in production mode:
+
+```sh
+npm run start
+```
+
+Now you'll need to pick a host to deploy it to.
+
+A Next.js app can be deployed to any hosting provider that supports Node.js
+
+**Note: Next.js is made by Vercel: https://vercel.com/frameworks/nextjs
 
 ---
 
@@ -99,12 +126,12 @@ Whiteboarding:
 2) Generate a Demo Application
 
 # Core Needs (Stretch Goals):
-1) routing
-2) form building
-3) validation/typing
-4) internationalization
-5) ideally a better data grid
-6) Testing Library
+1) routing -in demo
+2) form building - in demo
+3) validation/typing - in demo
+4) internationalization - mentioned in the notes
+5) ideally a better data grid - n/a
+6) Testing Library - mentioned in the notes
 
 
 ## Next.js App Router Course - Starter
