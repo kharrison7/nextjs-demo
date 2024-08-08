@@ -26,7 +26,7 @@ npm install -g pnpm
 
 **Note: the Next.Js tutorial recommends `pnpm` as it is faster than `npm` or `yarn`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
 
-**`npm` alternative instructions can be found below:
+**`npm` alternative instructions can be found below:**
 
 ##  Updating to Node V18 (needs at least V18) and git init
 https://nodejs.org/en/blog/announcements/v18-release-announce
@@ -55,7 +55,7 @@ This starts your app in development mode, rebuilding assets on file changes.
 Runs the application locally ->  http://localhost:3000
 
 
-**Alternatively, for `npm` use:
+**Alternatively, for `npm` use:**
 ```sh
 npm install -g node@22.5.1
 nvm use 22.5.1
