@@ -64,6 +64,12 @@ npm i
 npm run start
 ```
 
+**Swapping from `pnpm` to `npm`:
+```sh
+rm -rf node_modules
+npm install
+```
+
 ---
 
 ## Adding Packages:
@@ -126,9 +132,9 @@ Whiteboarding:
 2) Generate a Demo Application
 
 # Core Needs (Stretch Goals):
-1) routing -in demo
-2) form building - in demo
-3) validation/typing - in demo
+1) routing - in demo & notes
+2) form building - in demo & notes
+3) validation/typing - in demo & notes
 4) internationalization - mentioned in the notes
 5) ideally a better data grid - n/a
 6) Testing Library - mentioned in the notes
