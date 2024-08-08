@@ -10,6 +10,7 @@ I. Using the default Page Directory:
   - The folder containing the filename will map to route's url pathname .
   - Example: src > pages > login > index.js -> the content of index.js would appear at the /login route.
   - To route between pages, the Next.js `link` component can be used to pass in the corresponding url.
+  - For dynamic routing, the `useRouter` can be employed witheither [id] or [slug].
 
 II. Using the App Router: (recommended)
 
@@ -35,9 +36,13 @@ https://nextjs.org/docs/app/building-your-application/routing
 
 ## How is fetching performed?
 There are 4 main ways to fetch data with Next.js:
+
  1: using `fetch`, on the server
+
  2: using third-party libraries, on the server
+
  3: using `Route Handler`, on the client
+
  4: using third-party libraries, on the client
 
 I. Using  `fetch`, on the server:
@@ -72,11 +77,91 @@ https://nextjs.org/docs/app/building-your-application/data-fetching
 ---
 
 ## How does form submission work?
+Next.js uses API routes to handle submission. The gneral recommendation is to use Server Actions to handle form submissions and data mutations.
+Server Actions can be used to define asynchronous server functions that can be called directly from your components, without needing to manually create an API Route.
 
+Example
+```
+"use server";
+
+type FormState = {
+  message: string;
+}
+
+export async function onFormPostAction(prevState: FormState, data: FormData) {
+   // Process the data
+   return {
+      message: "Form data processed";
+   }
+}
+```
+
+Data Form & Submission Documentation:
+https://nextjs.org/docs/pages/building-your-application/data-fetching/forms-and-mutations
+https://www.pronextjs.dev/form-actions-with-the-useformstate-hook
+
+
+---
+
+## How do I validate a form?
+
+
+---
 
 ## What if I want to delete an item?
 
+- Deleting a value via an API request can be accomplished using fetch:
 
-## How do I validate a form?
+Example
+```
+const deleteComment =async (commentId) => {
+  const response = await fetch(`/api/comments/${commentId}, {
+    method: 'DELETE',
+  });
+  const data await = response.json();
+  return data;
+}
+```
+
+Delete API Tutorial:
+https://www.youtube.com/watch?v=je8jPi8KOY4
+
+Alternatively, for deletion methods:
+- Create a file as this will act as our route.
+- Export an action method within our newly created file. The method will house the deletion functionality. This method may be imported for reusability.
+- Within our original contact component we will create a new form and button to direct us to the delete method. The action will allow us to specify the file to look for.
+
+Example
+```
+
+// components > DeleteForm.jsx
+import { deleteTask } from "@utils/actions";
+
+const DeleteForm = ({ id }) => {
+  return(
+    <form action={deleteTask}>
+      <input type="hidden" name="id" value={id}>
+      <button className+"btn">Delete</button>
+    </form>
+  );
+};
+
+export default DeleteForm;
+
+// utils > actions.tsx
+export const deleteTask = async (formData) => {
+  const id = formData.get("id");
+  await prisma.task.delete({
+    where: { id },
+  });
+
+  revalidatePath("/todo-list");
+}
+
+```
+
+Delete Task Tutorial:
+https://www.youtube.com/watch?v=S9rL4_UDLFQ
+
 
 ```
