@@ -17,13 +17,14 @@ https://nextjs.org/learn/dashboard-app/getting-started
 
 ## Development - pnpm (package manager) installation & documentation:
 https://pnpm.io/
+
 From your terminal:
 
 ```sh
 npm install -g pnpm
 ```
 
-**Note: the Next.Js tutorial recommends `pnpm`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
+**Note: the Next.Js tutorial recommends `pnpm` as it is faster than `npm` or `yarn`. The application can be setup an run using `npm` but the `node_modules`folder needs to be deleted when switching between package managers.
 
 ##  Updating to Node V18 (needs at least V18) and git init
 https://nodejs.org/en/blog/announcements/v18-release-announce
@@ -35,7 +36,7 @@ nvm use 22.5.1
 git init
 ```
 
-Pull the repository, cloning via ssh
+Cone the repository via ssh
 
 Then in the `nextjs-dashboard` project run
 
