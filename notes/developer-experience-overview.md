@@ -77,8 +77,8 @@ https://nextjs.org/docs/app/building-your-application/data-fetching
 ---
 
 ## How does form submission work?
-Next.js uses API routes to handle submission. The gneral recommendation is to use Server Actions to handle form submissions and data mutations.
-Server Actions can be used to define asynchronous server functions that can be called directly from your components, without needing to manually create an API Route.
+- Next.js uses API routes to handle submission. The gneral recommendation is to use Server Actions to handle form submissions and data mutations.
+- Server Actions can be used to define asynchronous server functions that can be called directly from your components, without needing to manually create an API Route.
 
 Example
 ```
@@ -105,6 +105,34 @@ https://www.pronextjs.dev/form-actions-with-the-useformstate-hook
 
 ## How do I validate a form?
 
+ - The Next.js docs recommend using HTML validation like required and type="email" for basic client-side form validation.
+
+- For more advanced server-side validation, you can use a schema validation library like zod
+to validate the form fields before mutating the data.
+
+Example
+```
+import type { NextApiRequest, NextApiResponse } from 'next'
+import { z } from 'zod'
+ 
+const schema = z.object({
+  // ...
+})
+ 
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  const parsed = schema.parse(req.body)
+  // ...
+}
+```
+
+Form Validation Documentation:
+https://nextjs.org/docs/pages/building-your-application/data-fetching/forms-and-mutations
+
+zod:
+https://zod.dev/
 
 ---
 
@@ -125,6 +153,10 @@ const deleteComment =async (commentId) => {
 
 Delete API Tutorial:
 https://www.youtube.com/watch?v=je8jPi8KOY4
+
+https://www.youtube.com/watch?v=A_tx4cZP1bE
+
+---
 
 Alternatively, for deletion methods:
 - Create a file as this will act as our route.
