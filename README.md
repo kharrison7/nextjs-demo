@@ -64,6 +64,8 @@ npm i
 npm run start
 ```
 
+**Be sure to use React v18.3.1
+
 **Swapping from `pnpm` to `npm`:
 ```sh
 rm -rf node_modules
